@@ -25,73 +25,20 @@
 <div class="reveal">
     <div class="slides">
         <section class="deck-slide" data-background="#E5F3F9">
-            <h1>Angular Workshop</h1>
-            <h3>29. & 30. März im AZA</h3>
+            <h1>Components</h1>
         </section>
-        <section data-background="#E5F3F9">
-            <h2>Agenda - Tag 1</h2>
-            <ul>
-                <li>Node, NPM, TypeScript</li>
-                <li>Angular CLI: Basics & Application Structure</li>
-                <li>Components</li>
-                <li>Template Syntax & Pipes</li>
-                <li>Change Detection, View Encapsulation & Styling</li>
-                <li>Services & Providers</li>
-            </ul>
+        <section>
+            <h2>Components!</h2>
+            <img src="img/components.png">
+            <p>Navigation, Search, Logo, Board-List, Board...</p>
+            <p>Board-Page (umfassende Komponente)</p>
         </section>
-        <section data-background="#E5F3F9">
-            <h2>Agenda - Tag 2</h2>
-            <ul>
-                <li>HTTP & RxJS ctd.</li>
-                <li>Testing</li>
-                <li>Routing</li>
-                <li>Build your own App</li>
-                <li>Questions and Discussions</li>
-                <li>Feedback</li>
-            </ul>
-        </section>
-        <section data-background="#E5F3F9">
-            <h2>Organisatorisches</h2>
-            <ul>
-                <li>Start: 8:30 Uhr</li>
-                <li>Ende: ca. 17:00 Uhr</li>
-                <li>Pause: 10:45 - 11:00</li>
-                <li>Mittag: 12:30 - 13:30</li>
-                <li>Pause: 15:30 - 15:45</li>
-                <li>Fragen: Jederzeit ;-)</li>
-            </ul>
-        </section>
-        <section data-background="#E5F3F9">
-            <h2>Warum Angular?</h2>
-            <ul>
-                <li>Best practices aus Angular 1, React, Ember</li>
-                <li>Gebaut für Testbarkeit</li>
-                <li>Fokus auf Webstandards</li>
-            </ul>
-        </section>
-        <section class="img-slide" data-background="img/hello-world-banner.png">
-        </section>
-        <section data-background="#E5F3F9">
-            <h2>Unsere erste Komponente</h2>
-            <pre>
-                <code class="hljs" data-trim contenteditable>
-                    import {Component} from '@angular/core';
-
-                    @Component({
-                      selector: 'my-app',
-                      template: `<h1>Hello {{name}}</h1>`
-                    })
-                    export class AppComponent {
-                        name = 'Joachim';
-                    }
-					</code>
-            </pre>
-        </section>
-        <section class="img-slide" data-background="img/questions.jpg">
+        <section>
+            <h2>Die App - ein Baum von Komponenten</h2>
+            <img src="img/component_tree.png">
         </section>
     </div>
 </div>
-
 <script src="lib/js/head.min.js"></script>
 <script src="js/reveal.js"></script>
 
